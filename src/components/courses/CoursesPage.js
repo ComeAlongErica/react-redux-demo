@@ -56,4 +56,5 @@ function mapDispatchToProps(dispatch) {
     actions: bindActionCreators(courseActions, dispatch)
   };
 }
+
 export default connect(mapStateToProps, mapDispatchToProps)(CoursesPage);
